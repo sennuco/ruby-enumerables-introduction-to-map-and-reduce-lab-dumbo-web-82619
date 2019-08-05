@@ -76,6 +76,8 @@ def reduce_to_all_true(array)
   n
 end
   
+  
+=begin  
 def reduce_to_all_true(array)
   i=0
   n =FALSE
@@ -85,4 +87,4 @@ def reduce_to_all_true(array)
      end
      
 end
-
+=end
