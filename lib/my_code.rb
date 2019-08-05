@@ -70,8 +70,8 @@ def reduce_to_all_true(array)
   while i < array.length do
     if array[i] =nil || array[i]=FALSE && n != FALSE
       n=FALSE 
-      i +=1
     end
+    i +=1
   end
   n
 end
