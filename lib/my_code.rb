@@ -76,5 +76,13 @@ def reduce_to_all_true(array)
   n
 end
   
-def 
+def reduce_to_all_true(array)
+  i=0
+  n =FALSE
+  while i < array.length do
+    if array[i] !=nil && array[i] !=FALSE
+      n=true
+     end
+     
+end
 
