@@ -29,27 +29,6 @@ end
 array
 end
 
-=begin
-def reduce_to_total(source_array) 
-  i =0
-  combine =0
-  while i < source_array.length do
-    combine += source_array[i]
-    i+=1
-end
-combine
-end
-
-def reduce_to_total(source_array, starting_point)
-  i=starting_point
-  combine =0 
-  while i < source_array.length do
-    combine += source_array[i]
-    i+=1
-  end
-  combine
-end
-=end
 def reduce_to_total(*args) 
   combine =0
   case args.size
