@@ -60,14 +60,12 @@ def reduce_to_all_true(array)
 end
   
   
-=begin  
-def reduce_to_all_true(array)
+def reduce_to_any_true(array)
   i=0
-  n =FALSE
+  n= false 
   while i < array.length do
-    if array[i] !=nil && array[i] !=FALSE
-      n=true
-     end
-     
-end
-=end
+    if array[i] != nil && array[i] != false
+      n= true
+    end
+    
+  end
