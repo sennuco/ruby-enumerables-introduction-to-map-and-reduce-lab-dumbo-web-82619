@@ -51,7 +51,7 @@ def reduce_to_all_true(array)
   i=0
   n=true
   while i < array.length do
-    if array[i] =nil || array[i]=false
+    if array[i] == nil || array[i]==false
       n=false 
     end
     i +=1
