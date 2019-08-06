@@ -67,6 +67,7 @@ def reduce_to_any_true(array)
     if array[i] != nil && array[i] != false 
       n= true
     end
+    i+=1
  end
     n
 end
